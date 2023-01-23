@@ -1,4 +1,3 @@
-import { Button } from "../Components/Buttons/Button";
 import logo from '../assets/images/dnc-logo.png'
 import jumpy from '../assets/images/jumpy-logo.png'
 import banner from '../assets/images/img.png'
@@ -7,12 +6,11 @@ import '../Pages/Pages.css';
 export function SignIn(){
   return(
     <>
-      <nav>
+      <nav className='navbar'>
         <a href="#" ><img className="logo" src={logo} alt="logo-dnc"/></a>
       </nav>
       <div className="container">
         <div className="left">
-          <h1></h1>
           <img className="banner" src={banner} alt="logo-dnc"/>
         </div>
 
@@ -34,11 +32,13 @@ export function SignIn(){
           </div>
 
 
-            {/* <div className="rememberUser">
-              <input type="checkbox"/>
-              <label for="rememberUser">Lembre de mim</label>
+            <div className="rememberUser">
+            <input type="checkbox"/>
+            <p>Lembrar de mim</p>
+
+              
             </div>
- */}
+
 
             <div className="forgotPass">
               <a href="#">Esqueceu sua senha?</a>
@@ -57,7 +57,7 @@ export function SignIn(){
 
       </div>
       <footer>
-        <p>© 2023 All Rights Reserved - Powered by:<a href="#"> netoeac</a></p>
+        <p>© 2023 All Rights Reserved - Made by 💙 by:<a href="#"> netoeac</a></p>
       </footer>
 
     </>
