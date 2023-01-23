@@ -1,0 +1,169 @@
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+nav{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 80px;
+  background-color: #303030;
+}
+
+.logo{
+  width: 100px;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  background-color: blueviolet;
+  height: 100vh;
+}
+/* Left section */
+.left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  background-color: #0C70F2;
+}
+/* Right section */
+.right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  background-color: #EFEBE4;
+}
+.welcome{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.welcome h1{
+  font-size: 30px;
+}
+
+.jumpyLogo{
+  width: 300px;
+  height: 70px;
+}
+
+.welcome form{
+  display: flex;
+  flex-direction: column;
+  
+  
+
+}
+form div{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+
+
+}
+.inputArea{
+  display: flex;
+  flex-direction: column;
+}
+form div input{
+  width: 400px;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius:10px ;
+  padding: 5px;
+  padding-left: 10px;
+}
+
+form div input:focus{
+  border: 1px solid #ccc;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+form label{
+  margin-bottom: 10px;
+}
+
+.otherOptions{
+  display: flex;
+  border: 1px solid black;
+}
+.rememberUser{
+  display: flex;
+  border: 1px solid black;
+}
+
+.rememberUser input{
+  width: 18px;
+}
+
+.forgotPass a{
+  text-decoration: none;
+  font-weight: bold;
+  color: #0C70F2;
+}
+
+.customButton{
+  background-color: #0C70F2;
+  color: #FFF;
+  font-size: 18px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  font-weight: bold;
+  cursor: pointer;
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.customButton:hover{
+  background-color: #247ef3;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+}
+  
+
+form p{
+  text-align: center;
+}
+
+form p a{
+  text-align: center;
+  text-decoration: none;
+  color: #0C70F2;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+form p a:hover{
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+
+
+
+/* Footer section */
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  background-color: #303030;
+}
+footer p{
+  color: #FFF;
+  font-size: 14px;
+}
+footer p a{
+  color: #ff7c17;
+  text-decoration: none;
+}
