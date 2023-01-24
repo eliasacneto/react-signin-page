@@ -9,14 +9,12 @@ nav {
   justify-content: center;
   align-items: center;
   background-color: #303030;
+  padding: 0px;
 
-}
-
-nav .navbar{
 }
 
 .logo {
-  width: 100px;
+  width: 120px;
 }
 
 .container {
@@ -28,16 +26,21 @@ nav .navbar{
 /* Left section */
 .left {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   width: 60%;
   background-color: #0c70f2;
 }
 
-.imageArea{
-display: flex;
-flex-direction: column;
+.bannerArea{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  
+}
+.bannerArea .banner{
+  align-items: flex-start;
+  position: absolute;
 }
 /* Right section */
 .right {
@@ -75,6 +78,7 @@ form div {
 .inputArea {
   display: flex;
   flex-direction: column;
+  font-weight: 600;
 }
 form div input {
   width: 400px;
@@ -100,27 +104,42 @@ form label {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+  padding: 0px;
+ 
+  height: 18px;
 }
 
 .rememberUser p {
-  font-size: 14px;
+  font-size: 12px;
   margin-left: 5px;
+  padding: 0px;
+  font-weight: 600;
 }
 
 .rememberUser input {
   width: 18px;
   height: 18px;
+  margin-left: 5px;
+  padding: 0px;
 }
 
 .forgotPass {
   display: flex;
   align-items: flex-end;
+  margin: 0px;
+  padding: 0px;
+
 }
 
 .forgotPass a {
   text-decoration: none;
   font-weight: bold;
   color: #0c70f2;
+  
+}
+.forgotPass a:hover {
+color: #247ef3;
+
 }
 
 .customButton {
@@ -133,9 +152,10 @@ form label {
   width: 100%;
   font-weight: bold;
   cursor: pointer;
-  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; */
-  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
-  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  margin-top: 40px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+  /* box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; */
 }
 .customButton:hover {
   background-color: #247ef3;
@@ -145,6 +165,7 @@ form label {
 
 form p {
   text-align: center;
+  font-weight: 600;
 }
 
 form p a {
@@ -152,7 +173,7 @@ form p a {
   text-decoration: none;
   color: #0c70f2;
   line-height: 20px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 form p a:hover {

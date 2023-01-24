@@ -1,6 +1,7 @@
 import logo from '../assets/images/dnc-logo.png'
 import jumpy from '../assets/images/jumpy-logo.png'
-import banner from '../assets/images/img.png'
+import app from '../assets/images/app.webp'
+import laptop from '../assets/images/laptop.webp'
 import '../Pages/Pages.css';
 
 export function SignIn(){
@@ -11,7 +12,10 @@ export function SignIn(){
       </nav>
       <div className="container">
         <div className="left">
-          <img className="banner" src={banner} alt="logo-dnc"/>
+          <div className="bannerArea">
+            <img className="laptop" src={laptop} alt="logo-dnc"/>
+          </div>
+          
         </div>
 
         <div className="right">
@@ -34,7 +38,7 @@ export function SignIn(){
 
             <div className="rememberUser">
             <input type="checkbox"/>
-            <p>Lembrar de mim</p>
+            <p>Mantenha me conectado</p>
 
               
             </div>
