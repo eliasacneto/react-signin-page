@@ -61,7 +61,7 @@ export function SignIn(){
 
       </div>
       <footer>
-        <p>© 2023 All Rights Reserved - Made by 💙 by:<a href="https://github.com/netoeac" target="_blank"> netoeac</a></p>
+        <p>© 2023 All Rights Reserved - Made by 💙 <a href="https://github.com/netoeac" target="_blank"> netoeac</a></p>
       </footer>
 
     </>
